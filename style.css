@@ -1,0 +1,23 @@
+.pageBorder{
+    border: solid black;
+    height: 200px;
+}
+.cell{
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 1024px;
+    overflow: hidden;
+}
+#canvasDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
