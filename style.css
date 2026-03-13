@@ -1,0 +1,27 @@
+#mainBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pageBorder{
+    border: solid black;
+    width: 500px;
+}
+.cell{
+    border:  solid black .5px;
+    box-sizing: border-box;
+
+}
+#container{
+    display: grid;
+    
+
+    width: 960px;
+    height: 960px;
+}
+#canvasDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
