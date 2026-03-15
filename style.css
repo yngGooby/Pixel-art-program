@@ -1,21 +1,28 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+
 #mainBody{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .pageBorder{
-    border: solid black;
-    width: 500px;
+    border: solid #333;
+    background-color: rgb(216, 216, 216);
+    width: 300px;
+    padding: 20px;
+    font-family:sans-serif;
 }
 .cell{
-    border:  solid black .5px;
+    border: solid black .5px;
     box-sizing: border-box;
+    background-color: white;
 
 }
 #container{
     display: grid;
-    
-
+    border: solid #333;
     width: 960px;
     height: 960px;
 }
@@ -24,4 +31,40 @@
     align-items: center;
     justify-content: center;
 
+}
+#mouseLocation{
+    font-size: 30px;
+}
+#toolBox{
+    display: flex;
+    flex-direction: column;
+    font-family:sans-serif;
+
+    justify-content: space-around;
+}
+button{
+    font-family:sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 70px;
+    font-size: 15px;
+    padding: 2px;
+    background-color: beige;
+    margin-top: 10px;
+    transition: .4s;
+}
+button:hover{
+    background-color: rgb(190, 190, 190);
+}
+#mouseLoc{
+    font-family:sans-serif;
+
+}
+#colorWheel{
+    width: 90px; height: 40px;
+    transition: .4s;
+    border-radius: 5px;
+}
+#colorWheel:hover{
+    background-color: rgb(190, 190, 190);
 }

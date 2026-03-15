@@ -8,7 +8,27 @@
 </head>
 <body>
     <div id="mainBody">
-        <div class="pageBorder">this is a header</div>
+        <div class="pageBorder">
+            <h1>Pixel art program</h1>
+            <div id="toolBox">
+                <h2>Tools</h2>
+                <input type="color" id="colorWheel">
+                <button id="clearButton">clear</button>
+                <button id="eraser">eraser</button>
+                <button id="colorSelector">dropper</button>
+            </div>
+            <div>
+                <h2>canvas size</h2>
+                <input type="range" id="gridSlider" min="1" value="16" max="100">
+                <span id="rangeNumberValue"></span>
+                <input type="number" id="gridNumber" min="1" value="16" max="100">
+            </div>
+            <div id="mouseLoc">
+                <h2>Mouse location</h2>
+                <h3>column x row</h3>
+                <span id="mouseLocation"></span>
+            </div>
+        </div>
 
         <div id="canvasDiv">
             <div id="container"></div>
