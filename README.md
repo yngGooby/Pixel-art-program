@@ -22,4 +22,4 @@ id like to add this is v1.0 of the "Pixel art program"
 - custom color wheel
 - have old colors stored in blank boxes so you dont have to keep using color wheel
 
-[Click me]([https://example.com](https://ynggooby.github.io/Pixel-art-program/))
+[Try it here](https://ynggooby.github.io/Pixel-art-program/)
