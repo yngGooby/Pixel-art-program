@@ -1,4 +1,4 @@
-# Pixel art program
+# Pixel art program ✏️🎨
 This started as the Odin Project's Etch-a-Sketch assignment, but I kept building and what you see here is v1.0 of my own pixel art app
 built from scratch with vanilla JavaScript, HTML, and CSS, and no libraries, no frameworks.
 id like to add this is v1.0 of the "Pixel art program"
